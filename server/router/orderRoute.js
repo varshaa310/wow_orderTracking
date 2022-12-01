@@ -11,7 +11,7 @@ Route.post('/getOrders', getAllOrders )
 
 Route.post('/orderCreate', orderWebhook)
 
-Route.post('/orderUpdate', orderWebhook)
+Route.post('/updateWebhook', orderWebhook)
 
 Route.post('/orderDelete', deleteOrder)
 
